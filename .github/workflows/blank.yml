@@ -7,7 +7,7 @@ name: CI
 on:
   repository_dispatch:
     types:
-      - auto_exam_caspaper
+      - auto_exam_scantron
   push:
     branches: [ '*' ]
   pull_request:
